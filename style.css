@@ -1,0 +1,105 @@
+
+header {
+background-color: black;
+height: 90px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+nav {
+    width: 60%;
+}
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap')}
+
+li:hover {
+    color: blue;
+}
+#logo {
+    width: 80px;
+    height: auto;
+}
+#Fachada {
+    background-image: url(https://scontent.ffor11-1.fna.fbcdn.net/v/t39.30808-6/500111869_1205815881330578_1078801487270902962_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeE7wCS1R_rBQJnQFgcbD487r3GTDDIM-SivcZMMMgz5KLV4i7vLN9t3o8HF29WJke6xm-YazdlnCPfOuDKHy-SF&_nc_ohc=MBhzWTY6ptUQ7kNvwEdll6t&_nc_oc=AdnaQ0N9nB0rCArC0VUmc8R8H2Gpw8EqHeFC0pkv_hg2uX5DmloOfDI44czn2t2c0EVSjt9kIIYFI0VmTJokA-HY&_nc_zt=23&_nc_ht=scontent.ffor11-1.fna&_nc_gid=YZX4t6G52sdfDTtx1vsddg&oh=00_AfaOqzOqmIup9vIaY36iWY-52nqmHiGfRgEE0DjdT3rIGQ&oe=68E35296);
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    opacity: 0.4;
+}
+.cartaotext {
+margin: 30px;
+font-size: 80px;
+color: blue;
+}
+.cartaoimg {
+    width: auto;
+    height: auto;
+    border: solid 10px;
+
+    color: black;
+}
+.cartaoimg, .cartaotext {
+    display: inline-block;
+    justify-content: flex-start;
+}
+
+.trailer {
+    width: 300px;
+    height: 400px;
+}
+#trailercontainer {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.content {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#sinopse {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.description {
+    color: blue;
+    font-size: 25px;
+    font-family: url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');}
+.button {
+    width: 150px;
+    height: 60px;
+    background-color: blue;
+    color: aliceblue;
+    padding: 08px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:.8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+.button :hover {
+    background-color: aliceblue;
+    color: blue;
+}
