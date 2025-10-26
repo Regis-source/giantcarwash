@@ -33,12 +33,8 @@ li:hover {
     width: 80px;
     height: auto;
 }
-#Fachada {
-    background-image: url(https://scontent.ffor2-1.fna.fbcdn.net/v/t39.30808-6/500111869_1205815881330578_1078801487270902962_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeE7wCS1R_rBQJnQFgcbD487r3GTDDIM-SivcZMMMgz5KLV4i7vLN9t3o8HF29WJke6xm-YazdlnCPfOuDKHy-SF&_nc_ohc=eHClAsbS8VMQ7kNvwFPWYsl&_nc_oc=AdkSnPBUy4lsYhin1jl1G5BMjlW9PLDP1k7KlG9U9frsa8Py6V6FSlhN-3G208UHSfJ2TrZjyp2ITh84LuQdmxH5&_nc_zt=23&_nc_ht=scontent.ffor2-1.fna&_nc_gid=k7xJfeFiBfFZm0GXJ-Rc3A&oh=00_Aff1tXi7dOoS66MRurrBGUWJTwed6PyEEFl7xMGPdUaqmA&oe=68F75156);
-    background-position: 50% 50%;
-    background-size: cover;
-    width: 100%;
-    height: 400px;
+.fachada {
+   width: 400px;
 }
 #trailer-container {
     width: 100%;
@@ -277,7 +273,7 @@ span {
     .card-content {
         grid-template-columns: 1fr;
         margin-right: 15px;
-        margin-top: 20px
+        margin-top: 200px
         ;
 
     }
