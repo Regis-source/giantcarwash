@@ -283,7 +283,7 @@ span {
     .ownerimg {
         width: 300px;
         height: 400px;
-        margin-left: 20px
+        margin-left: 10px
     }
     .art-content {
           grid-template-columns: 1fr;
